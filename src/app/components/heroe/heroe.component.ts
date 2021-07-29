@@ -20,7 +20,6 @@ export class HeroeComponent  {
     this._activatedRoute.params.subscribe(params=>{
       this.heroe=this._heroesService.getHeroe(params['id']);
       // console.log(params['id']);//ese id viene de (rutas) { path: 'heroe/:id', component: HeroeComponent },
-
     })//params =>
 
   }

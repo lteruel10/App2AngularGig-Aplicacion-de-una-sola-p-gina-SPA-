@@ -22,6 +22,8 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
 @NgModule({
   declarations: [
     AppComponent,
+
+
     NavbarComponent,
     HomeComponent,
     AboutComponent,
@@ -33,6 +35,7 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     APP_ROUTING
   ],
   providers: [

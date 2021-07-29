@@ -37,7 +37,7 @@
             <form class="d-flex">
                 <!-- <input class="form-control me-2" type="search" placeholder="Buscar héroe" (keyup.enter)="buscarHeroe(buscarTexto.value)" #buscarTexto> -->
                 <input class="form-control mr-ms-2" type="text" placeholder="Buscar héroe" (keyup.enter)="buscarHeroe(buscarTexto.value)" #buscarTexto>
-                <button (click)="buscarHeroe(buscarTexto.value)" class="btn btn-outline-primary " type="button">Buscar</button>
+                <button (click)="buscarHeroe(buscarTexto.value)" class="btn btn-outline-primary " type="button" routerLinkActive="active" [routerLink]="['buscador']">Buscar</button>
             </form>
         </div>
     </div>

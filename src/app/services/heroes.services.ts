@@ -74,7 +74,7 @@ export class HeroesService {
       return this.heroes[idx];
     }
     
-    buscarHeroes(termino:string){
+    public buscarHeroes(termino:string){
       let heroesArr:Heroe[]=[];
       termino=termino.toLowerCase();
       for(let heroe of this.heroes){
@@ -84,7 +84,7 @@ export class HeroesService {
         }
    
       }
-      return heroesArr;
+           return heroesArr;
     }
 
     
