@@ -17,6 +17,7 @@ import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
 import { HeroeTareaComponent } from './components/heroe-tarea/heroe-tarea.component';
 import { BuscadorComponent } from './components/buscador/buscador.component';
+import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { BuscadorComponent } from './components/buscador/buscador.component';
     HeroesComponent,
     HeroeComponent,
     HeroeTareaComponent,
-    BuscadorComponent
+    BuscadorComponent,
+    HeroeTarjetaComponent
     
   ],
   imports: [
